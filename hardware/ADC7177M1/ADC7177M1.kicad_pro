@@ -433,8 +433,12 @@
       "VREF"
     ],
     [
-      "28494664-a203-4e77-8199-f0ff2a061196",
-      "IO"
+      "4e76d7a3-96d3-44e0-95f8-788ce7fa76a5",
+      "Connector B"
+    ],
+    [
+      "1fd9f062-6bda-4558-98ff-afb6d3e33e43",
+      "Connector A"
     ]
   ],
   "text_variables": {}

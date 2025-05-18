@@ -4202,7 +4202,6 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
