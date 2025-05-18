@@ -5,34 +5,20 @@
 	(uuid "7bfa5529-c859-4d71-a151-e33eef64ca17")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Reference_Voltage:ADR1399KEZ"
+		(symbol "power:+5VD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016)
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "ADR1399KEZ"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_LCC:Analog_LCC-8_5x5mm_P1.27mm"
-				(at 0 -6.985 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -40,16 +26,15 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adr1399.pdf"
-				(at 0 -8.89 0)
+			(property "Value" "+5VD"
+				(at 0 3.556 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Description" "Oven-Compensated, Buried Zener, 7.05 V Voltage Reference, LCC-8"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -58,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Zener diode device voltage reference"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -67,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Analog*LCC?8*5x5mm*P1.27mm*"
+			(property "Description" "Power symbol creates a global label with name \"+5VD\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,67 +61,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "ADR1399KEZ_0_0"
-				(text "+"
-					(at -3.81 1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "ADR1399KEZ_0_1"
-				(rectangle
-					(start -6.35 2.54)
-					(end 3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
+			(symbol "+5VD_0_1"
 				(polyline
 					(pts
-						(xy -5.08 -2.54) (xy -5.08 -1.524) (xy -4.572 -1.524) (xy -4.572 -1.016) (xy -5.588 -1.016) (xy -5.588 -0.508)
-						(xy -4.572 -0.508) (xy -4.572 0) (xy -5.588 0) (xy -5.588 0.508) (xy -4.572 0.508) (xy -4.572 1.016)
-						(xy -5.588 1.016) (xy -5.588 1.524) (xy -5.08 1.524) (xy -5.08 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 0 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.27) (xy 0 1.27)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -148,7 +85,19 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 -2.54) (xy 2.54 -1.27) (xy 0 -1.27)
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -159,215 +108,11 @@
 					)
 				)
 			)
-			(symbol "ADR1399KEZ_1_1"
-				(polyline
-					(pts
-						(xy -0.762 0.762) (xy 0.762 0.762) (xy 0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 -0.762) (xy 0.762 -0.762) (xy 0 0.762) (xy -0.762 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "-"
-					(at -3.81 -1.905 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "F"
-					(at 0.635 1.905 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "F"
-					(at 0.635 -1.905 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "S"
-					(at 3.175 1.905 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(text "S"
-					(at 3.175 -1.905 0)
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
+			(symbol "+5VD_1_1"
 				(pin power_in line
-					(at -5.08 5.08 270)
-					(length 2.54)
-					(name "HEATER+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -5.08 90)
-					(length 2.54)
-					(name "HEATER-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 2.54 270)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -2.54 -2.54 90)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+REFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "-REFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "+REFS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "-REFS"
+					(at 0 0 90)
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -387,35 +132,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Reference_Voltage:ADR1399KEZ")
-		(at 64.77 87.63 0)
+		(lib_id "power:+5VD")
+		(at 60.96 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97b3a001-3bad-4ef9-a286-e0520b935961")
-		(property "Reference" "U10"
-			(at 69.85 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADR1399KEZ"
-			(at 69.85 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_LCC:Analog_LCC-8_5x5mm_P1.27mm"
-			(at 64.77 94.615 0)
+		(uuid "6e64ca3f-68f2-46e4-8e1c-1d97482b8082")
+		(property "Reference" "#PWR091"
+			(at 60.96 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -423,8 +150,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adr1399.pdf"
-			(at 64.77 96.52 0)
+		(property "Value" "+5VD"
+			(at 60.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -432,8 +167,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Oven-Compensated, Buried Zener, 7.05 V Voltage Reference, LCC-8"
-			(at 64.77 87.63 0)
+		(property "Datasheet" ""
+			(at 60.96 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -441,34 +176,22 @@
 				(hide yes)
 			)
 		)
-		(pin "6"
-			(uuid "71210e90-8f21-45c7-90c1-9ef740f56fdf")
-		)
-		(pin "3"
-			(uuid "55476f89-ebf4-49cf-95b8-e556eb7d0958")
-		)
-		(pin "2"
-			(uuid "c0d07a8f-9acc-4700-86d6-f7845d8e38c6")
-		)
-		(pin "5"
-			(uuid "dc623942-7427-4534-ac56-632327e9eda4")
-		)
-		(pin "4"
-			(uuid "54f97df1-e1d5-40da-b42c-515bbd1bb677")
+		(property "Description" "Power symbol creates a global label with name \"+5VD\""
+			(at 60.96 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "6143a120-9a1e-4a17-830e-4d52c4aa24b9")
-		)
-		(pin "7"
-			(uuid "771f3166-513e-489a-bcb9-8c47cf036e9d")
-		)
-		(pin "8"
-			(uuid "6340fedb-01ab-43c0-af08-c7a83b1d3a4d")
+			(uuid "e4dc5ec7-c8c0-48f2-ba9d-641a132babe6")
 		)
 		(instances
 			(project ""
 				(path "/e30159e7-fecb-4b08-a9fd-8c0b6565f013/e382cca3-340a-4115-b733-1d21769b9a67/40ee723a-4bed-42db-bfa8-bbbbb28f1aea"
-					(reference "U10")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
