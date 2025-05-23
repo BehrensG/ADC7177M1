@@ -869,7 +869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3670402"
+		(property "Value" "3670513"
 			(at 48.26 180.3399 0)
 			(effects
 				(font
@@ -878,7 +878,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ADC7177M1:3670513"
 			(at 31.75 181.61 0)
 			(effects
 				(font
@@ -936,7 +936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3671338"
+		(property "Value" "3670345"
 			(at 92.71 180.3399 0)
 			(effects
 				(font
@@ -945,7 +945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ADC7177M1:3670345"
 			(at 76.2 181.61 0)
 			(effects
 				(font
@@ -997,7 +997,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "0f32cb2d-c908-4fd1-b000-45b5682e819c")
 		(property "Sheetname" "VREF"
@@ -1079,7 +1079,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "162a67b4-8c53-447b-9e5a-afc01ca9e483")
 		(property "Sheetname" "Frontend"
@@ -1281,7 +1281,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "1fd9f062-6bda-4558-98ff-afb6d3e33e43")
 		(property "Sheetname" "Connector A"
@@ -1343,7 +1343,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "2cbd31a6-d641-4304-8402-7aca3689c05b")
 		(property "Sheetname" "ADC"
@@ -1475,7 +1475,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "40ee723a-4bed-42db-bfa8-bbbbb28f1aea")
 		(property "Sheetname" "Power"
@@ -1517,7 +1517,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 255 194 1.0000)
 		)
 		(uuid "4e76d7a3-96d3-44e0-95f8-788ce7fa76a5")
 		(property "Sheetname" "Connector B"
