@@ -22,7 +22,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ADC7177B1:ADC7177M1"
 			(at 0 0 0)
 			(effects
 				(font

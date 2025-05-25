@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 36.322 51.308 0)
+			(at 0 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" "ADC7177M1"
-			(at 36.322 48.768 0)
+			(at 0 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -627,16 +627,17 @@
 				)
 			)
 		)
-		(symbol "ADC7177M1_0_1"
+		(symbol "ADC7177M1_1_1"
 			(rectangle
 				(start -12.7 31.75)
 				(end 12.7 -31.75)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 255 255 194 1)
 				)
 			)
 		)
