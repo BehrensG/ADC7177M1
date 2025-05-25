@@ -4849,16 +4849,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 63.5) (xy 130.81 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42875147-524f-4bd7-9429-1cca47ed3740")
-	)
-	(wire
-		(pts
 			(xy 153.67 154.94) (xy 165.1 154.94)
 		)
 		(stroke
@@ -6239,16 +6229,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 127) (xy 129.54 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ded0692e-2f28-465e-91cb-6964e687aad1")
-	)
-	(wire
-		(pts
 			(xy 119.38 181.61) (xy 119.38 180.34)
 		)
 		(stroke
@@ -6587,26 +6567,6 @@
 		)
 		(uuid "8f12a392-81e1-4867-9cf2-d0d4406d7ae5")
 	)
-	(label "REF_GND"
-		(at 119.38 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ad6f9f5-69a7-4b66-8497-0cfee1694263")
-	)
-	(label "REF_GND"
-		(at 118.11 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a8dd7a39-3a3b-41d2-90bd-0da150c19467")
-	)
 	(label "REF_7V"
 		(at 118.11 124.46 0)
 		(effects
@@ -6735,17 +6695,6 @@
 			(justify right)
 		)
 		(uuid "8b108409-7822-44e8-a634-2152953f3b5b")
-	)
-	(hierarchical_label "REF_GND"
-		(shape input)
-		(at 118.11 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "98c190f2-48c9-4030-8786-991e9d30e25b")
 	)
 	(hierarchical_label "A0P"
 		(shape input)
@@ -10106,6 +10055,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 129.54 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bc99370-9f41-4b7c-a2b3-78c5dee1e5fc")
+		(property "Reference" "#PWR0127"
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 126.238 126.238 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fbd001e-0127-424a-b555-4a564bf7a498")
+		)
+		(instances
+			(project "ADC7177M1"
+				(path "/e30159e7-fecb-4b08-a9fd-8c0b6565f013/e382cca3-340a-4115-b733-1d21769b9a67/162a67b4-8c53-447b-9e5a-afc01ca9e483"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 237.49 30.48 90)
 		(unit 1)
@@ -10707,6 +10722,72 @@
 			(project ""
 				(path "/e30159e7-fecb-4b08-a9fd-8c0b6565f013/e382cca3-340a-4115-b733-1d21769b9a67/162a67b4-8c53-447b-9e5a-afc01ca9e483"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 130.81 63.5 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89167504-21bb-4e5c-8f1f-7d8c232b5929")
+		(property "Reference" "#PWR0128"
+			(at 124.46 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 127.508 62.738 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 130.81 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c4f5c3e-c810-4951-9993-befeef26f9a6")
+		)
+		(instances
+			(project "ADC7177M1"
+				(path "/e30159e7-fecb-4b08-a9fd-8c0b6565f013/e382cca3-340a-4115-b733-1d21769b9a67/162a67b4-8c53-447b-9e5a-afc01ca9e483"
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)

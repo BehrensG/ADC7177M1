@@ -913,7 +913,7 @@
 	)
 	(hierarchical_label "A0P"
 		(shape output)
-		(at 111.76 80.01 180)
+		(at 111.76 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -924,18 +924,18 @@
 	)
 	(hierarchical_label "A1P"
 		(shape output)
-		(at 111.76 82.55 180)
+		(at 142.24 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "10f5fc92-9f7a-4812-be13-984c8d50421e")
 	)
 	(hierarchical_label "~{SYNC}{slash}~{ERR}"
 		(shape output)
-		(at 142.24 72.39 0)
+		(at 142.24 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -946,23 +946,23 @@
 	)
 	(hierarchical_label "A1N"
 		(shape output)
-		(at 142.24 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "29f78334-6d36-4901-be46-46005dab398a")
-	)
-	(hierarchical_label "~{CS}"
-		(shape output)
-		(at 111.76 72.39 180)
+		(at 111.76 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
+		)
+		(uuid "29f78334-6d36-4901-be46-46005dab398a")
+	)
+	(hierarchical_label "~{CS}"
+		(shape output)
+		(at 142.24 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "580caab6-c708-4a62-bbd0-7ad931c95249")
 	)
@@ -979,6 +979,28 @@
 	)
 	(hierarchical_label "DOUT"
 		(shape input)
+		(at 111.76 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "825996cf-c247-499a-aa23-295301cf917d")
+	)
+	(hierarchical_label "A2N"
+		(shape output)
+		(at 111.76 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1249b1f-0806-4522-bfea-4f0aa425d648")
+	)
+	(hierarchical_label "SCLK"
+		(shape output)
 		(at 142.24 74.93 0)
 		(effects
 			(font
@@ -986,33 +1008,11 @@
 			)
 			(justify left)
 		)
-		(uuid "825996cf-c247-499a-aa23-295301cf917d")
-	)
-	(hierarchical_label "A2N"
-		(shape output)
-		(at 142.24 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b1249b1f-0806-4522-bfea-4f0aa425d648")
-	)
-	(hierarchical_label "SCLK"
-		(shape output)
-		(at 111.76 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
 		(uuid "c06865ff-12dc-4693-8073-515b53e8bf1e")
 	)
 	(hierarchical_label "A0N"
 		(shape output)
-		(at 142.24 77.47 0)
+		(at 142.24 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1023,7 +1023,7 @@
 	)
 	(hierarchical_label "DIN"
 		(shape output)
-		(at 111.76 77.47 180)
+		(at 111.76 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1034,7 +1034,7 @@
 	)
 	(hierarchical_label "IN_CPL"
 		(shape output)
-		(at 142.24 85.09 0)
+		(at 142.24 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
