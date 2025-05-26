@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -632,6 +632,10 @@
     [
       "07044147-0e8a-4c72-a8b6-f4a6a6e21869",
       "ADC Module"
+    ],
+    [
+      "0ff5f57b-fb5c-467e-9068-b1c62d9700a2",
+      "Frontend"
     ]
   ],
   "text_variables": {}

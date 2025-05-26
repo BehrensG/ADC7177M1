@@ -298,6 +298,48 @@
 		)
 	)
 	(sheet
+		(at 52.07 41.91)
+		(size 26.67 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0ff5f57b-fb5c-467e-9068-b1c62d9700a2")
+		(property "Sheetname" "Frontend"
+			(at 52.07 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Frontend.kicad_sch"
+			(at 52.07 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADC7177B1"
+				(path "/06a56fb9-779c-428e-b281-14ac9294755f/ce8ead21-c650-4940-b61e-074f59a08930"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 180.34 44.45)
 		(size 29.21 36.83)
 		(exclude_from_sim no)
