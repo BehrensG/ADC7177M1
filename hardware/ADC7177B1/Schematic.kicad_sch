@@ -5,16 +5,6 @@
 	(uuid "123c0fed-397a-4d05-9a94-3b13c6433df9")
 	(paper "A4")
 	(lib_symbols)
-	(text "AD797\n"
-		(exclude_from_sim no)
-		(at 83.566 53.848 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1a89c384-7e2a-40ca-ae87-6f1840c336bd")
-	)
 	(wire
 		(pts
 			(xy 175.26 59.69) (xy 180.34 59.69)
@@ -298,7 +288,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 41.91)
+		(at 68.58 43.18)
 		(size 26.67 36.83)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -314,7 +304,7 @@
 		)
 		(uuid "0ff5f57b-fb5c-467e-9068-b1c62d9700a2")
 		(property "Sheetname" "Frontend"
-			(at 52.07 41.1984 0)
+			(at 68.58 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -323,7 +313,7 @@
 			)
 		)
 		(property "Sheetfile" "Frontend.kicad_sch"
-			(at 52.07 79.3246 0)
+			(at 68.58 80.5946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
