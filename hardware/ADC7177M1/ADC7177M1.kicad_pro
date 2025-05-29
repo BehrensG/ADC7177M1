@@ -512,7 +512,7 @@
       "plot": "../../../../tmp/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "ADC7177M1.step",
+      "step": "../ADC7177B1/lib/3d/ADC7177M1.step",
       "svg": "",
       "vrml": ""
     },
