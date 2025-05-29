@@ -7217,7 +7217,7 @@
 		(uuid "4f803f20-87c6-4a15-b285-b99954352021")
 	)
 	(label "LED_GREEN"
-		(at 186.69 135.89 180)
+		(at 186.69 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7227,7 +7227,7 @@
 		(uuid "58c68c01-0e0e-4ccc-ace2-7ef635621022")
 	)
 	(label "LED_RED"
-		(at 186.69 133.35 180)
+		(at 186.69 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10249,10 +10249,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "559ef47c-9c81-47f5-a7c1-c7ba1b0382f1")
+			(uuid "559ef47c-9c81-47f5-a7c1-c7ba1b0382f2")
 		)
 		(pin "2"
-			(uuid "ebdf5fce-2e91-4072-9b92-b4eb2b2a8dec")
+			(uuid "ebdf5fce-2e91-4072-9b92-b4eb2b2a8ded")
 		)
 		(instances
 			(project "ETH1HMSR-SMS"
@@ -11576,7 +11576,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ce7d021-0990-4d23-846c-643005e7d7b9")
+			(uuid "3ce7d021-0990-4d23-846c-643005e7d7ba")
 		)
 		(instances
 			(project "ETH1HMSR-SMS"
