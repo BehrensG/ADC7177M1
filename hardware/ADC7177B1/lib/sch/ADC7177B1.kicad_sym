@@ -1354,7 +1354,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "TBA1-0521E"
+	(symbol "THN 15-2425"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1419,7 +1419,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TBA1-0521E_0_1"
+		(symbol "THN 15-2425_0_1"
 			(rectangle
 				(start -10.16 7.62)
 				(end 10.16 -7.62)
@@ -1504,7 +1504,7 @@
 				)
 			)
 		)
-		(symbol "TBA1-0521E_1_1"
+		(symbol "THN 15-2425_1_1"
 			(pin power_in line
 				(at -12.7 5.08 0)
 				(length 2.54)
@@ -1587,7 +1587,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

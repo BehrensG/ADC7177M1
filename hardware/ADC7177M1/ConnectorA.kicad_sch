@@ -1912,7 +1912,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x08_Odd_Even"
+		(property "Value" "FTSH-108-04-L-DV"
 			(at 139.7 72.39 0)
 			(effects
 				(font

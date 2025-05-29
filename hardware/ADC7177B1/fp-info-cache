@@ -1,4 +1,4 @@
-25617629262814643
+25624595016304934
 ADC7177B1
 1776-C68xx
 
@@ -11,8 +11,36 @@ ADC7177M1
 
 
 0
-34
-31
+32
+32
+ADC7177B1
+G6SK-2F
+
+G6SK-2F
+0
+10
+10
+ADC7177B1
+NX5032GA
+Crystal
+
+0
+2
+2
+ADC7177B1
+S16N-PC
+
+
+0
+5
+1
+ADC7177B1
+THN_15-2425
+
+
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

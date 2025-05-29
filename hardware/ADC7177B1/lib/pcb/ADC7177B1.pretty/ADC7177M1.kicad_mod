@@ -54,6 +54,46 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -23.75 -8)
+		(end -21.75 -8)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "766e4cd2-5d5e-4ef3-b867-2eb29944c30e")
+	)
+	(fp_line
+		(start -22.75 -9)
+		(end -22.75 -7)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68beed51-c768-4ac1-8241-35aa40da4959")
+	)
+	(fp_line
+		(start 21.5 -8)
+		(end 23.5 -8)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6214271b-8a7a-4982-b656-0cc9d89399b0")
+	)
+	(fp_line
+		(start 22.5 -9)
+		(end 22.5 -7)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ce6035cc-5c18-48dd-b0bc-88290d768b04")
+	)
 	(fp_rect
 		(start -27 -14.5)
 		(end 27 14.5)
@@ -1225,12 +1265,6 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "83a4979a-4741-4faf-9666-33a1d3323f05")
 	)
-	(pad "A11" smd rect
-		(at 24.3 1.9)
-		(size 2.1 0.75)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "a0a1dec8-3823-484c-857a-d2f876ed5786")
-	)
 	(pad "A12" smd rect
 		(at -20.7 -1.9 180)
 		(size 2.1 0.75)
@@ -1321,6 +1355,12 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "6d726fe4-2c94-4d9c-88df-0a44dcfe520e")
 	)
+	(pad "B11" smd rect
+		(at 24.3 1.9)
+		(size 2.1 0.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a0a1dec8-3823-484c-857a-d2f876ed5786")
+	)
 	(pad "B12" smd rect
 		(at 20.7 1.9)
 		(size 2.1 0.75)
@@ -1354,7 +1394,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/lib/3d/ADC7177M1.step"
 		(offset
-			(xyz -149.5 93 5.5)
+			(xyz -149.5 93 7.75)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -1363,26 +1403,26 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x08_P1.27mm_Vertical_SMD.step"
+	(model "${KIPRJMOD}/lib/3d/FLE-108-01-G-DV-K-TR.stp"
 		(offset
-			(xyz -22.5 0 0)
+			(xyz -22.5 0 0.2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -90 -0 -90)
 		)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x08_P1.27mm_Vertical_SMD.step"
+	(model "${KIPRJMOD}/lib/3d/FLE-108-01-G-DV-K-TR.stp"
 		(offset
-			(xyz 22.5 0 0)
+			(xyz 22.5 0 0.2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -90 -0 -90)
 		)
 	)
 )

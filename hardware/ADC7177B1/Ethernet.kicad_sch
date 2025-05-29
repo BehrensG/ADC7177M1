@@ -203,7 +203,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.399 6.985) (xy 17.399 7.62) (xy 20.32 7.62)
+						(xy 17.399 7.112) (xy 17.399 7.62) (xy 20.32 7.62)
 					)
 					(stroke
 						(width 0)
@@ -215,7 +215,7 @@
 				)
 				(polyline
 					(pts
-						(xy 17.399 -3.175) (xy 17.399 -2.54) (xy 20.32 -2.54)
+						(xy 17.399 -3.048) (xy 17.399 -2.54) (xy 20.32 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -582,7 +582,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 3.1115) (xy 8.6995 3.1115)
+						(xy 7.366 3.175) (xy 8.636 3.175)
 					)
 					(stroke
 						(width 0)
@@ -594,7 +594,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 1.8415) (xy 8.6995 1.8415)
+						(xy 7.366 1.905) (xy 8.636 1.905)
 					)
 					(stroke
 						(width 0)
@@ -606,7 +606,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 0.5715) (xy 8.6995 0.5715)
+						(xy 7.366 0.635) (xy 8.636 0.635)
 					)
 					(stroke
 						(width 0)
@@ -618,7 +618,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 -0.6985) (xy 8.6995 -0.6985)
+						(xy 7.366 -0.762) (xy 8.636 -0.762)
 					)
 					(stroke
 						(width 0)
@@ -630,7 +630,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.4295 -1.9685) (xy 8.6995 -1.9685)
+						(xy 7.366 -2.032) (xy 8.636 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -642,7 +642,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.6995 5.6515) (xy 7.4295 5.6515)
+						(xy 8.636 5.715) (xy 7.366 5.715)
 					)
 					(stroke
 						(width 0)
@@ -654,7 +654,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.6995 4.3815) (xy 7.4295 4.3815)
+						(xy 8.636 4.445) (xy 7.366 4.445)
 					)
 					(stroke
 						(width 0)
@@ -666,7 +666,7 @@
 				)
 				(polyline
 					(pts
-						(xy 8.6995 -3.2385) (xy 7.4295 -3.2385)
+						(xy 8.636 -3.302) (xy 7.366 -3.302)
 					)
 					(stroke
 						(width 0)
@@ -1046,9 +1046,9 @@
 				)
 				(polyline
 					(pts
-						(xy 7.3025 -4.5085) (xy 7.3025 6.9215) (xy 15.0495 6.9215) (xy 15.0495 4.3815) (xy 16.3195 4.3815)
-						(xy 16.3195 3.1115) (xy 17.5895 3.1115) (xy 17.5895 -0.6985) (xy 16.3195 -0.6985) (xy 16.3195 -1.9685)
-						(xy 15.0495 -1.9685) (xy 15.0495 -4.5085) (xy 7.3025 -4.5085)
+						(xy 7.366 -4.572) (xy 7.366 6.985) (xy 15.24 6.985) (xy 15.24 4.445) (xy 16.256 4.445) (xy 16.256 3.048)
+						(xy 17.526 3.048) (xy 17.526 -0.635) (xy 16.256 -0.635) (xy 16.256 -2.032) (xy 15.24 -2.032) (xy 15.24 -4.572)
+						(xy 7.366 -4.572)
 					)
 					(stroke
 						(width 0.254)
@@ -1072,7 +1072,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.161 5.461) (xy 16.637 5.461)
+						(xy 18.161 5.588) (xy 16.637 5.588)
 					)
 					(stroke
 						(width 0.254)
@@ -1084,7 +1084,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.161 -4.699) (xy 16.637 -4.699)
+						(xy 18.161 -4.572) (xy 16.637 -4.572)
 					)
 					(stroke
 						(width 0.254)
@@ -1096,7 +1096,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.288 6.985) (xy 16.383 6.985) (xy 17.399 5.461) (xy 18.288 6.985)
+						(xy 18.288 7.112) (xy 16.383 7.112) (xy 17.399 5.588) (xy 18.288 7.112)
 					)
 					(stroke
 						(width 0.254)
@@ -1120,7 +1120,7 @@
 				)
 				(polyline
 					(pts
-						(xy 18.288 -3.175) (xy 16.383 -3.175) (xy 17.399 -4.699) (xy 18.288 -3.175)
+						(xy 18.288 -3.048) (xy 16.383 -3.048) (xy 17.399 -4.572) (xy 18.288 -3.048)
 					)
 					(stroke
 						(width 0.254)
@@ -1240,6 +1240,22 @@
 				)
 				(text "75"
 					(at 1.016 -2.54 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "Y"
+					(at 19.558 6.35 0)
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(text "G"
+					(at 19.685 -3.81 0)
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -2129,7 +2145,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex*"
+			(property "ki_fp_filters" "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6897,7 +6913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 resistor network, parallel topology"
 			(at 175.26 40.64 0)
 			(effects
 				(font
@@ -6988,7 +7004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 resistor network, parallel topology"
 			(at 72.39 88.9 0)
 			(effects
 				(font
@@ -9007,7 +9023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LAN8720 Ethernet PHY with RMII interface, QFN-24"
 			(at 113.03 91.44 0)
 			(effects
 				(font
@@ -9391,7 +9407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4 resistor network, parallel topology"
 			(at 96.52 168.91 0)
 			(effects
 				(font
@@ -9624,7 +9640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ETH1HMSR-SMS:NX5032GA"
+		(property "Footprint" "ADC7177B1:NX5032GA"
 			(at 80.01 125.73 0)
 			(effects
 				(font
