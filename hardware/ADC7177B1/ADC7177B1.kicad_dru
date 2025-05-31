@@ -1,0 +1,14 @@
+(version 1)
+
+(rule "HV1"
+  (condition "A.NetClass != 'HV1' && A.NetClass != B.NetClass")
+  (constraint clearance (min 1.27mm)))
+
+(rule "HV6"
+  (condition "A.NetClass != 'HV6' && A.NetClass != B.NetClass")
+  (constraint clearance (min 1.27mm)))
+
+
+(rule "HV2"
+  (condition "A.NetClass != 'HV2' && B.NetClass =='ANALOG' " )
+  (constraint clearance (min 1.27mm)))
