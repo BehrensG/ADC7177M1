@@ -31653,8 +31653,8 @@
 		(uuid "e3edc205-c67b-4d3f-8de1-0995e274d283")
 	)
 	(gr_line
-		(start 171 85)
-		(end 173 85)
+		(start 171 85.75)
+		(end 173 85.75)
 		(stroke
 			(width 0.5)
 			(type solid)
@@ -31663,28 +31663,8 @@
 		(uuid "171176e2-9bae-406c-a038-e4f94c431c12")
 	)
 	(gr_line
-		(start 126 85)
-		(end 128 85)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "2fec4245-05a2-4d5b-9af7-9df117b35cdf")
-	)
-	(gr_line
-		(start 127 84)
-		(end 127 86)
-		(stroke
-			(width 0.5)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "62701fa4-d059-417c-89a6-9c34d295aeec")
-	)
-	(gr_line
-		(start 172 84)
-		(end 172 86)
+		(start 172 84.75)
+		(end 172 86.75)
 		(stroke
 			(width 0.5)
 			(type solid)
