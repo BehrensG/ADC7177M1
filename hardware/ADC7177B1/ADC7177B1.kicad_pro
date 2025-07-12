@@ -726,7 +726,6 @@
     "net_colors": null,
     "netclass_assignments": {
       "+15V": [
-        "ANALOG",
         "LV"
       ],
       "+24V": [
@@ -743,7 +742,6 @@
         "LV"
       ],
       "-15V": [
-        "ANALOG",
         "LV"
       ],
       "/Schematic/ADC Module/A0N": [
@@ -845,6 +843,60 @@
       "/Schematic/Ethernet/RMII_TXEN": [
         "LV"
       ],
+      "/Schematic/Frontend/Analog Channels A/AIN_N_A": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels A/AIN_P_A": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels A/INA_N": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels A/INA_P": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels A/OUTA_N": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels A/OUTA_P": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels B/AIN_N_B": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels B/AIN_P_B": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels B/AOUT_N_B": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels B/AOUT_P_B": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels B/INB_N": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels B/INB_P": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels B/OUTB_N": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Analog Channels B/OUTB_P": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/GAIN_x10": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/GAIN_x100": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Gain/OUT_N": [
+        "ANALOG"
+      ],
+      "/Schematic/Frontend/Gain/OUT_P": [
+        "ANALOG"
+      ],
       "/Schematic/Frontend/Gx10": [
         "ANALOG",
         "LV"
@@ -862,6 +914,12 @@
         "LV"
       ],
       "/Schematic/MCU/EEPROM_nWP": [
+        "LV"
+      ],
+      "/Schematic/MCU/Gx10": [
+        "LV"
+      ],
+      "/Schematic/MCU/Gx100": [
         "LV"
       ],
       "/Schematic/MCU/I2C1_SCL": [
@@ -997,10 +1055,19 @@
       "Net-(Q5-B)": [
         "LV"
       ],
+      "Net-(Q5-B)_1": [
+        "LV"
+      ],
       "Net-(Q6-B)": [
         "ANALOG"
       ],
+      "Net-(Q6-B)_1": [
+        "ANALOG"
+      ],
       "Net-(Q7-B)": [
+        "ANALOG"
+      ],
+      "Net-(Q7-B)_1": [
         "ANALOG"
       ],
       "Net-(R31-Pad2)": [
@@ -1016,6 +1083,9 @@
         "HV8"
       ],
       "Net-(R35-Pad2)": [
+        "HV4"
+      ],
+      "Net-(R35-Pad2)_1": [
         "HV4"
       ],
       "Net-(R36-Pad2)": [
@@ -1161,6 +1231,12 @@
       ],
       "unconnected-(J2-NC-Pad7)": [
         "LV"
+      ],
+      "unconnected-(K1-Pad10)": [
+        "ANALOG"
+      ],
+      "unconnected-(K1-Pad3)": [
+        "ANALOG"
       ],
       "unconnected-(RN1-R4.1-Pad4)": [
         "LV"
@@ -1548,6 +1624,22 @@
     [
       "0ff5f57b-fb5c-467e-9068-b1c62d9700a2",
       "Frontend"
+    ],
+    [
+      "5bbd8ab0-e231-4ea0-9449-a6b26682a18d",
+      "Analog Channels A"
+    ],
+    [
+      "6721de5c-bf60-432b-9e1f-02942ac960d9",
+      "Analog Channels B"
+    ],
+    [
+      "279c4a9b-c180-4174-abf3-ee4aadadbeec",
+      "Reference"
+    ],
+    [
+      "c08617c8-70ba-434f-8f3b-34254ee2b83e",
+      "Gain"
     ]
   ],
   "text_variables": {}
